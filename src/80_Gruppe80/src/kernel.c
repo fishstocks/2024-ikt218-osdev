@@ -12,6 +12,7 @@ struct multiboot_info {
 };
 
 int kernel_main();
+int a: 
 
 
 int main(uint32_t magic, struct multiboot_info* mb_info_addr) {
